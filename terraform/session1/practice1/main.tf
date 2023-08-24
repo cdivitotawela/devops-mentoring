@@ -1,0 +1,3 @@
+locals {
+    today = var.day
+}
