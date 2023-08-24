@@ -25,7 +25,8 @@ resource "local_file" "example" {
   filename        = "./example.txt"
   file_permission = "0600"
   content         = "Hello"
-}```
+}
+```
 
 Update the `main.tf` file to create 3 files with names `red.txt` `green.txt` and `black.txt` with each file containing the respective color. 
 
